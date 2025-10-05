@@ -240,59 +240,6 @@
         transform: translateY(-5px) rotateY(5deg);
       }
 
-      .testimonial-card {
-        transition: all 0.3s ease;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-      }
-
-      .testimonial-card:hover,
-      .testimonial-card:active {
-        transform: scale(1.05);
-      }
-
-      .testimonial-content {
-        flex-grow: 1;
-      }
-
-      /* GitHub Activity - TIDAK DIUBAH */
-      .github-activity {
-        display: grid;
-        grid-template-columns: repeat(53, 1fr);
-        gap: 2px;
-        max-width: 100%;
-        overflow-x: auto;
-      }
-
-      .activity-day {
-        width: 10px;
-        height: 10px;
-        border-radius: 2px;
-        transition: all 0.2s ease;
-        min-width: 10px;
-      }
-
-      .activity-day:hover {
-        transform: scale(1.5);
-      }
-
-      .activity-0 {
-        background-color: #161b22;
-      }
-      .activity-1 {
-        background-color: #0e4429;
-      }
-      .activity-2 {
-        background-color: #006d32;
-      }
-      .activity-3 {
-        background-color: #26a641;
-      }
-      .activity-4 {
-        background-color: #39d353;
-      }
-
       /* Responsive Grid Fixes - TIDAK DIUBAH */
       @media (max-width: 768px) {
         .github-activity {
@@ -587,19 +534,19 @@
     class="bg-slate-50 dark:bg-dark-bg text-gray-700 dark:text-gray-200 font-sans transition-colors duration-300"
   >
     <!-- Enhanced Header -->
-    <header
+    <!-- <header
       class="fixed top-0 left-0 right-0 z-50 glass-light dark:glass transition-all duration-300"
     >
       <div class="container mx-auto px-4 sm:px-6 py-4">
         <div class="flex justify-between items-center">
-          <!-- Enhanced Logo -->
+          
           <a href="#" class="text-xl sm:text-2xl font-bold text-electric-blue">
             <span class="gradient-bg bg-clip-text text-transparent"
-              >Abrory Malikur</span
+              >Abrory Malikur </span
             ><span class="text-electric-blue">Rohman</span>
           </a>
 
-          <!-- Navigation -->
+          
           <nav class="hidden md:flex space-x-6 lg:space-x-8">
             <a
               href="#home"
@@ -627,21 +574,6 @@
               >Certificates</a
             >
           </nav>
-
-          <!-- Enhanced Theme Toggle -->
-          <button
-            id="theme-toggle"
-            class="p-2 sm:p-3 rounded-full bg-gradient-to-r from-yellow-400 to-orange-500 dark:from-blue-500 dark:to-purple-600 hover:shadow-glow transition-all duration-300 transform hover:scale-110"
-          >
-            <i
-              class="fas fa-sun text-white dark:hidden text-sm sm:text-base"
-            ></i>
-            <i
-              class="fas fa-moon text-white hidden dark:block text-sm sm:text-base"
-            ></i>
-          </button>
-
-          <!-- Mobile Menu Button -->
           <button
             id="mobile-menu-button"
             class="md:hidden text-gray-800 dark:text-gray-200 focus:outline-none ml-2"
@@ -650,7 +582,6 @@
           </button>
         </div>
 
-        <!-- Mobile Menu -->
         <div id="mobile-menu" class="md:hidden hidden mt-4 pb-4 space-y-2">
           <a
             href="#home"
@@ -679,15 +610,15 @@
           >
         </div>
       </div>
-    </header>
+    </header> -->
 
     <!-- Enhanced Hero Section -->
     <section
       id="home"
       class="min-h-screen flex items-center justify-center relative overflow-hidden"
     >
-      <div class="absolute inset-0 gradient-bg opacity-20"></div>
-      <div class="absolute inset-0">
+      <div class="absolute gradient-bg opacity-20"></div>
+      <div class="absolute">
         <div
           class="absolute top-1/4 left-1/4 w-32 h-32 bg-electric-blue rounded-full filter blur-3xl opacity-30 animate-float"
         ></div>
@@ -779,10 +710,10 @@
                 class="absolute inset-0 rounded-full border-4 border-cyan-glow opacity-50 animate-pulse-slow"
               ></div>
               <div
-                class="absolute -top-4 -right-4 w-8 h-8 bg-green-glow rounded-full animate-pulse sparkle"
+                class="absolute -top-4 -right-4 w-8 h-8 rounded-full animate-pulse sparkle"
               ></div>
               <div
-                class="absolute -bottom-4 -left-4 w-6 h-6 bg-pink-glow rounded-full animate-pulse sparkle"
+                class="absolute -bottom-4 -left-4 w-6 h-6 rounded-full animate-pulse sparkle"
                 style="animation-delay: 1s"
               ></div>
             </div>
@@ -1100,11 +1031,6 @@
 
         <!-- Enhanced Technical Skills with Better Grid -->
         <div class="mb-16">
-          <h3
-            class="text-xl sm:text-2xl font-bold mb-8 text-center gradient-bg bg-clip-text text-transparent"
-          >
-            Technical Skills
-          </h3>
           <div class="skills-grid">
             <!-- HTML -->
             <div
